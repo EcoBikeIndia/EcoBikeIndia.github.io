@@ -1,0 +1,23 @@
+.navbar-brand {
+  /*font-family: -apple-system, BlinkMacSystemFont, sans-serif;*/
+  color: blue;
+  background-color:green;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .nav-item {
+  /*font-family: -apple-system, BlinkMacSystemFont, sans-serif;*/
+  color: blue;
+  background-color:green;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+  .disabled {
+  /*font-family: -apple-system, BlinkMacSystemFont, sans-serif;*/
+  color: green;
+  background-color:white;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
