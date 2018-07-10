@@ -235,6 +235,17 @@ section.download .badges .badge-link img {
   }
 }
 
+section.features {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/mumbai.png");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 section.features .section-heading {
   margin-bottom: 100px;
 }
@@ -288,7 +299,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/mumbai.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
