@@ -217,6 +217,7 @@ header.masthead .device-container .screen img {
 section.download {
   position: relative;
   padding: 150px 0;
+  color: white;
 }
 
 section.download h2 {
@@ -465,15 +466,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-outline {
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   border: 1px solid;
-  border-color: white;
+  border-color: rgba(255, 255, 255, 0.75);
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #aad768;
-  background-color: #aad768;
+  border-color: white;
 }
 
 .btn {
