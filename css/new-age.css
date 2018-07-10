@@ -75,7 +75,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #448cff;
 }
 
 #mainNav .navbar-toggler {
@@ -93,7 +93,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #448cff !important;
   background-color: transparent;
 }
 
@@ -108,7 +108,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #448cff;
 }
 
 @media (min-width: 992px) {
@@ -138,7 +138,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #448cff;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -146,7 +146,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #448cff;
   }
 }
 
@@ -156,8 +156,8 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: #FFFFFF;
-  background: -webkit-linear-gradient(to left, #b8fed6, #00da5c);
-  background: linear-gradient(to left, #b8fed6, #00da5c);
+  background: -webkit-linear-gradient(to left, #448cff, #85b3fc);
+  background: linear-gradient(to left, #448cff, #85b3fc);
 }
 
 header.masthead .header-content {
@@ -279,8 +279,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-linear-gradient(to left, #FFFFFF, #24e75f);
-  background: linear-gradient(to left, #FFFFFF, #24e75f);
+  background: -webkit-linear-gradient(to left, #8ce9ff, #448cff);
+  background: linear-gradient(to left, #8ce9ff, #448cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -401,13 +401,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #85b3fc;
+  background: -webkit-linear-gradient(#85b3fc, #448cff);
+  background: linear-gradient(#85b3fc, #448cff);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #85b3fc;
 }
 
 .no-gutter > [class*='col-'] {
@@ -423,8 +423,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #85b3fc;
+  background-color: #85b3fc;
 }
 
 .btn {
