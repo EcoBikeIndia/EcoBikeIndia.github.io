@@ -282,10 +282,13 @@ section.features .section-heading {
 section.features .section-heading h2 {
   margin-top: 0;
   font-size: 100px;
+  color: white;
 }
 
 section.features .section-heading p {
   margin-bottom: 0;
+  color: white;
+
 }
 
 section.features .device-container,
@@ -308,12 +311,15 @@ section.features .feature-item {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  color: white;
 
 }
 
 section.features .feature-item h3 {
   font-size: 30px;
+  color: white;
+}
+section.features .feature-item p {
+  color: white;
 }
 
 
@@ -322,8 +328,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-linear-gradient(to left, #aad768, #aad768);
-  background: linear-gradient(to left, #aad768, #aad768);
+  background: -webkit-linear-gradient(to left, #b2ff00, #b2ff00);
+  background: linear-gradient(to left, #b2ff00, #b2ff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -331,7 +337,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/mumbai.png");
+  background-image: url("../img/below-mumbai-small.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -364,7 +370,7 @@ section.cta .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 section.contact {
