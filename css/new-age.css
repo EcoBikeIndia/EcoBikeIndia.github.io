@@ -335,6 +335,92 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+/*---------------------------------*/
+section.pricing {
+  position: relative;
+  padding: 150px 0;
+  background-image: url("../img/below-mumbai-small.png");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.pricing .pricing-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.pricing .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+section.pricing .section-heading {
+  font-size: 100px;
+  color: white;
+}
+
+section.pricing .section-heading h2 {
+  margin-top: 0;
+  font-size: 100px;
+  color: white;
+}
+
+section.pricing .section-heading p {
+  margin-bottom: 0;
+  color: white;
+
+}
+
+section.pricing .device-container,
+section.pricing .pricing-item {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+section.pricing .device-container {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  section.pricing .device-container {
+    margin-bottom: 0;
+  }
+}
+
+section.pricing .pricing-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+section.pricing .pricing-item h3 {
+  font-size: 50px;
+  color: white;
+}
+section.pricing .pricing-item p {
+  color: white;
+}
+
+
+/* Fill for icons at the bottom */
+section.pricing .pricing-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-linear-gradient(to left, #b2ff00, #b2ff00);
+  background: linear-gradient(to left, #b2ff00, #b2ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 section.cta {
   position: relative;
   padding: 250px 0;
@@ -344,11 +430,18 @@ section.cta {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: white;
+
 }
 
 section.cta .cta-content {
   position: relative;
   z-index: 1;
+}
+
+section.cta .cta h3 {
+  font-size: 30px;
+  color: white;
 }
 
 section.cta .cta-content h2 {
