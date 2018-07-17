@@ -420,6 +420,91 @@ section.pricing .pricing-item i {
   -webkit-text-fill-color: transparent;
 }
 
+/*---------------------------------*/
+section.about_us {
+  position: relative;
+  padding: 150px 0;
+  background-image: url("../img/park.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.about_us .about_us-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.about_us .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+section.about_us .section-heading {
+  font-size: 100px;
+  color: white;
+}
+
+section.about_us .section-heading h2 {
+  margin-top: 0;
+  font-size: 100px;
+  color: white;
+}
+
+section.about_us .section-heading p {
+  margin-bottom: 0;
+  color: white;
+    font-size: 23px;
+
+}
+
+section.about_us .device-container,
+section.about_us .about_us-item {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+section.about_us .device-container {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  section.about_us .device-container {
+    margin-bottom: 0;
+  }
+}
+
+section.about_us .about_us-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+section.about_us .about_us-item h3 {
+  font-size: 50px;
+  color: white;
+}
+section.about_us .about_us-item p {
+  color: white;
+}
+
+
+/* Fill for icons at the bottom */
+section.about_us .about_us-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-linear-gradient(to left, #b2ff00, #b2ff00);
+  background: linear-gradient(to left, #b2ff00, #b2ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 section.cta {
   position: relative;
